@@ -1,0 +1,73 @@
+# Project information
+site_name: SCU COEN 921C Introduction to Logic Design
+site_description: SCU COEN 921C notes and assignments, Digital Logic Circuit Analysis and Design.
+site_author: Amblizer
+site_url: https://coen250.amblizer.xyz
+
+# Repository
+repo_name: COEN921C
+repo_url: https://github.com/EICamino/COEN921C
+
+# Copyright
+copyright: '<a href="https://amblizer.xyz">Amblizer</a> &copy; 2018'
+
+# Configuration
+
+theme:
+    name: 'material'
+    language: 'en'
+    # favicon: 'assets/favicon.png'
+    palette:
+        primary: 'Red'
+        accent: 'teal'
+    font:
+        text: 'Roboto'
+        code: 'Roboto Mono'
+    logo:
+        icon: 'import_contacts'
+
+# Customization
+extra:
+    social:
+        - type: github
+          link: https://github.com/amblizer
+        - type: quote-left
+          link: https://amblizer.xyz
+        - type: linkedin
+          link: https://www.linkedin.com/in/m-zhao
+        # - type: book
+        #   link:
+        # - type: gamepad
+        #   link: 
+        # - type: instagram
+        #   link: 
+  
+extra_javascript:
+    - 'js/mathjax.js'
+    - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
+
+# Google Analytics
+
+
+# Extensions
+markdown_extensions:
+    - codehilite:
+        linenums: true
+    - toc:
+        permalink: false
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    # - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.inlinehilite
+    # - pymdownx.magiclink
+    # - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
